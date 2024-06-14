@@ -22,7 +22,7 @@ data$sub<-factor(data$sub, levels = c("1", "2", "3"),
 
 ### Substrate configuration levels
 data$quadname<-factor(data$quadname, levels = c("submat_H", "submat_HR", "submat_P1", "submat_P2", "submat_V", "submat_Vdiff1", "submat_Vdiff2"), 
-                      labels = c("Horizontal 1 (H1)", "Horizontal 2 (H2)", "Patchy 1 (P1)", "Patchy 2 (P2)", "Vertical 1 (V1)", "Vertical 2 (V2)", "Vertical 3 (V3)"))
+                      labels = c("Horizontal-1 (H1)", "Horizontal-2 (H2)", "Patchy-1 (P1)", "Patchy-2 (P2)", "Vertical-1 (V1)", "Vertical-2 (V2)", "Vertical-3 (V3)"))
 
 
 ##### 1. Plot combined substrate attractiveness effect across all 28 scenarios
