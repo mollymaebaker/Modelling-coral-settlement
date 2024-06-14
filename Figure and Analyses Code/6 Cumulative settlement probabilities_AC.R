@@ -41,7 +41,7 @@ data <- data.frame(units = rep(units, length(p_values)),
 ### Plot using ggplot
 plot<-ggplot(data, aes(x = units, y = y_values, color = factor(p))) +
   geom_line(size=0.75) +
-  labs(x = "Distance (cm)", y = "Cumulative probability larvae settled\nif travelling over substrata",
+  labs(x = "Distance (cm)", y = "Cumulative probability larvae settled\nif travelling over substrates",
        title = "Plot of y = 1 - ((1 - p)^x)",
        color = "timestep \nsettlement \nprobability (p)") +
   ylim(0, 1) +
