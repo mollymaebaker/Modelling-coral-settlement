@@ -29,7 +29,7 @@ plot<-ggplot(data, aes(x=quadstrat, y=count, fill=sub)) +
   theme_test()+
   theme(text = element_text(size = 20),axis.text = element_text(size = 18), legend.position = "none")+
   scale_fill_manual(values = c("1"= "#D4AC7B", "2"="#A0D3D7", "3"= "#1F7AA6"), labels=c('Low', 'Medium', 'High'))+
-  xlab("Sampling technqiue") + ylab(bquote("Coral settler count"))+
+  xlab("Sampling design") + ylab(bquote("Coral settler count"))+
   labs(fill="Substrate Attractiveness")+
   scale_x_discrete(labels=c('Centre', 'Left Edge', 'Right Edge', 'Random'))
 
