@@ -46,7 +46,7 @@ plot<-ggplot(data, aes(x=quadname, y=average, fill=sub)) +
   theme_test()+
   theme(text = element_text(size = 18),axis.text = element_text(size = 16), legend.position = "none")+
   scale_fill_manual(values = c("4"= "#D4AC7B", "5"="#A0D3D7", "6"= "#1F7AA6"), labels=c('Low', 'Medium', 'High'))+
-  xlab("Sampling technqiue") + ylab(bquote("Average coral settler count"))+
+  xlab("Sampling design") + ylab(bquote("Average coral settler count"))+
   labs(fill="Substrate Attractiveness")
 
 
