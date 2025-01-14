@@ -48,4 +48,4 @@ Run '8 Application to the reef.R' to upload reef 2D mosaic, to assign different 
 Run '9 Application to the reef simulations.R' to simulate settlement on the reef 2D mosaic.
 
 Run '10 Application to the reef sampling' to create a csv file with the counts/densities of coral settlers on each substrate type within the reef 2D mosaic. The column 'sub' represents the different substrates where
-'1'=sand, '2'= live coral, '3'=rubble, '4' =dead staghorn coral , '5'=dead coral plates and bommies.
+'1'=sand, '2'= live coral, '3'=rubble, '4' =dead staghorn coral , '5'=dead coral (other).
