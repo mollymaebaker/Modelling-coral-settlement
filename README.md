@@ -32,8 +32,9 @@ The column 'quadstrat' represents the sampling technique used with quadrats:
 Run '6 Run simulations with settlement tiles' to rerun simulations with different settlement tile configurations (representing different strategies of sampling with tiles) for four example scenarios:
 1) Vertical substrate configuration with unidirectional flow
 2) Vertical substrate configuration with oscillating flow
-1) Horizontal substrate configuration with unidirectional flow
-2) Horizontal substrate configuration with oscillating flow
+3) Horizontal substrate configuration with unidirectional flow
+4) Horizontal substrate configuration with oscillating flow
+   
 This will output a png (showing the distribution of coral settlers at the end of each simulation) and a csv file (with the coordinates where larvae settled within the reef area) for each scenario to the 'Outputs_tile_sampling' subfolder.
 
 Run '7 Virtual Sampling Tiles Analysis' to get a dataframe with the number of larvae that settled on tiles for each sampling strategy for each scenario.
