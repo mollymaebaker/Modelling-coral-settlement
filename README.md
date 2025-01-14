@@ -25,6 +25,7 @@ within the reef area for each scenario. In this file the column 'sub' represents
 Run '5 Virtual sampling with quadrats' to simulate different strategies of sampling coral settlers with quadrats for two example scenarios:
 1) Vertical substrate configuration with unidirectional flow
 2) Vertical substrate configuration with oscillating flow
+
 This will output a csv file to your working directory (2quadrat_sampling_data.csv) with settler counts in quadrats placed on different substrates for each scenario.
 The column 'quadstrat' represents the sampling technique used with quadrats:
 '1'=centre, '2'=left edge, '3'=right edge, '4'=random.
