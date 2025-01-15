@@ -181,9 +181,9 @@ image(submat)
 
 ### Centre Sampling
 submat1 = submat
-for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-300]=4
+for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-300]=6
 for (i in 0:4) submat[(115:125)+(i*40)+300,495:505]=5
-for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)+300]=6
+for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)+300]=4
 submat=t(submat)
 image(submat)
 save(submat,file="submat_HwTC")
@@ -194,9 +194,9 @@ submat = submat1
 
 ### Left Edge Sampling
 submat1 = submat
-for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-390]=4
+for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-390]=6
 for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-90]=5
-for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)+210]=6
+for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)+210]=4
 submat=t(submat)
 image(submat)
 save(submat,file="submat_HwTL")
@@ -207,9 +207,9 @@ submat = submat1
 
 ### Right Edge Sampling
 submat1 = submat
-for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-210]=4
+for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)-210]=6
 for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505) +90]=5
-for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)+390]=6
+for (i in 0:4) submat[(115:125)+(i*40)+300,(495:505)+390]=4
 submat=t(submat)
 image(submat)
 save(submat,file="submat_HwTR")
@@ -222,7 +222,7 @@ submat = submat1
 for (i in 0:4) {
 	p1=sample(1:190,1)
 	p2=sample(1:190,1)
-	submat[(p1:(p1+10))+400 ,(p2:(p2+10))+100]=4
+	submat[(p1:(p1+10))+400 ,(p2:(p2+10))+100]=6
 }
 for (i in 0:4) {
 	p1=sample(1:190,1)
@@ -232,10 +232,10 @@ for (i in 0:4) {
 for (i in 0:4) {
 	p1=sample(1:190,1)
 	p2=sample(1:190,1)
-	submat[(p1:(p1+10))+400 ,(p2:(p2+10))+700]=6
+	submat[(p1:(p1+10))+400 ,(p2:(p2+10))+700]=4
 }
 submat=t(submat)
-image(submat1)
+image(submat)
 save(submat,file="submat_HwTRan")
 png(paste("submat_HwTRan.png"))
 drawasubmat(submat)

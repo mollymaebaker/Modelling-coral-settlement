@@ -92,8 +92,8 @@ while (t <=ntimesteps & nmove>0){   ## start the main simulation loop
   if (hydrodym=="oscillating"){
     swooshtime = 2 #sec 
     nmove = sum(!larv$ifsett) 
-    larv$x[!larv$ifsett] = larv$x[!larv$ifsett]+rnorm(nmove)*turbulence+ flowrate*dts*sin(t*2*pi/(swooshtime/dts))
-    larv$y[!larv$ifsett] = larv$y[!larv$ifsett]+rnorm(nmove)*turbulence
+    larv$x[!larv$ifsett] = larv$x[!larv$ifsett]+rnorm(nmove)*turbulence*dts + flowrate*dts*sin(t*2*pi/(swooshtime/dts))
+    larv$y[!larv$ifsett] = larv$y[!larv$ifsett]+rnorm(nmove)*turbulence*dts
     larv$x =   larv$x%%qs[1] 
     larv$y = larv$y%%qs[2]  
   }
