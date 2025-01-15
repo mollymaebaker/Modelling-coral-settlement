@@ -1,4 +1,4 @@
-Reading the paper 'Modelling interactive effects of biological and environmental factors on fine-scale coral settlement patterns' (insert link here) is suggested before using the code provided.
+Reading the paper 'Modelling interactive effects of biological and environmental factors on fine-scale coral settlement patterns' is suggested before using the code provided.
 
 Make sure all the scripts and the 'Real_mosaic.png' are downloaded to a single directory/folder.
 
