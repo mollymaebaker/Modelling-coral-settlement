@@ -1,0 +1,2 @@
+Video B.1 The four hydrodynamic conditions incorporated in the model, including (a) a unidirectional flow, 
+(b) an oscillating flow, (c) a cyclonic eddy and (d) no hydrodynamic forcing. Settled larvae are shown in red and unsettled larvae in black.
