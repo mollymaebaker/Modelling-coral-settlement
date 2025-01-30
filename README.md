@@ -1,3 +1,5 @@
+This model was designed to explore how multiple factors on a reef interact to influence patterns of coral larval settlement. 
+
 Reading the paper 'Modelling interactive effects of biological and environmental factors on fine-scale coral settlement patterns' is suggested before using the code provided.
 
 Make sure all the scripts and the 'Real_mosaic.png' are downloaded to a single directory/folder.
