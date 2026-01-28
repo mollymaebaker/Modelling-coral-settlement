@@ -58,6 +58,8 @@ To explore how in-situ sampling designs using common methods (quadrats (a) and s
 ## Application to the reef
 To demonstrate the applicability of our model to natural reef environments that are often typified by complex patchworks of different substrates, we ran the model for a case study site from Ningaloo Reef, Western Australia.
 
+![Alt text](gifs/Modelling_coral_larval_settlement.gif)
+
 ## Instructions for use
 - Reading the paper 'Modelling interactive effects of biological and environmental factors on fine-scale coral settlement patterns' (insert link here) is suggested before using the code provided. Running the following code should produce ouputs similar to examples shown in Video B.1, Video B.2 and Video B.3 (to view you will need to download the mp4 files).
 
