@@ -41,7 +41,7 @@ a) Unidirectional flow: Larvae are transported in the horizontal direction from 
 
 b) Oscillating flow: Larvae are transported back and forth (right to left) within the reef area. The reef area is wrapped, retaining larvae until the simulation ends.
 
-c) Cyclonic eddy:Larvae are transported in a clockwise motion around the reef area. The reef area is wrapped, retaining larvae until the simulation ends.
+c) Cyclonic eddy: Larvae are transported in a clockwise motion around the reef area. The reef area is wrapped, retaining larvae until the simulation ends.
 
 d) No hydrodynamics: No hydrodynamics acting on larvae. The reef area is wrapped, retaining larvae until the simulation ends.
 
