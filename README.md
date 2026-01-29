@@ -9,13 +9,13 @@ For more information see https://www.sciencedirect.com/science/article/pii/S0304
 
 ### 1 | Substrate attractiveness
 
-- Not attractive: Substrate has a 0.00 probability of settlement at each time step.
+Not attractive: Substrate has a 0.00 probability of settlement at each time step.
 
-- Low attractiveness: Substrate has a 0.01 probability of settlement at each time step.
+Low attractiveness: Substrate has a 0.01 probability of settlement at each time step.
 
-- Medium attractiveness: Substrate has a 0.05 probability of settlement at each time step.
+Medium attractiveness: Substrate has a 0.05 probability of settlement at each time step.
 
-- High attractiveness: Substrate has a 0.09 probability of settlement at each time step.
+High attractiveness: Substrate has a 0.09 probability of settlement at each time step.
 
 ### 2 | Substrate configuration
 
